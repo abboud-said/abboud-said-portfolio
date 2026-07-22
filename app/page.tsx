@@ -165,7 +165,8 @@ export default function Home() {
               Contact
             </a>
             <a
-              href="mailto:abboudsaid6@gmail.com?subject=Resume%20request"
+              href="/assets/Abboud Said - Resume.pdf"
+              download
               className="inline-block rounded-[3px] border border-[oklch(0.85_0.006_250)] px-[22px] py-3 font-mono text-sm"
             >
               ↓ Resume
