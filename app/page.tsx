@@ -264,10 +264,11 @@ export default function Home() {
               responsive, interactive web-based information systems.
             </p>
             <a
-              href="mailto:abboudsaid6@gmail.com?subject=Diploma%20request"
+              href="/assets/Abboud Said - Degree.pdf"
+              download
               className="font-mono text-[13px] text-accent"
             >
-              ↓ request degree (PDF)
+              ↓ download degree (PDF)
             </a>
           </div>
         </div>
