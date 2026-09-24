@@ -46,6 +46,30 @@ const projects = [
     tech: ["Node.js", "Express.js", "SQLite3", "JavaScript ES6+"],
     status: "View case study",
     href: "/projects/styleai",
+    image: "/assets/styleai-3.png",
+    imageAlt: "StyleAI price comparison",
+  },
+  {
+    title: "Bostadssök Companion",
+    tagline:
+      "Chrome extension for Hemnet and Booli — works out a listing's real monthly cost from your own mortgage assumptions, and the distance to preschool, grocery and transit.",
+    year: "2026",
+    tech: ["Chrome MV3", "JavaScript", "Nominatim", "Overpass API"],
+    status: "View case study",
+    href: "/projects/bostadssok",
+    image: "/assets/bostadssok-1.png",
+    imageAlt: "Bostadssök Companion panel on a Hemnet listing",
+  },
+  {
+    title: "Lönetracker",
+    tagline:
+      "Pay calculator for hourly retail staff in Sweden — reads a schedule export and works out OB supplements, sick pay and holiday pay under Detaljhandelsavtalet, entirely in the browser.",
+    year: "2026",
+    tech: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+    status: "View case study",
+    href: "/projects/lonetracker",
+    image: "/assets/lonetracker-1.png",
+    imageAlt: "Lönetracker — OB tiers from Detaljhandelsavtalet",
   },
 ];
 
@@ -319,8 +343,8 @@ export default function Home() {
           >
             <div className="relative min-h-[200px] overflow-hidden bg-[oklch(0.97_0.003_250)]">
               <Image
-                src="/assets/styleai-3.png"
-                alt="StyleAI price comparison"
+                src={proj.image}
+                alt={proj.imageAlt}
                 fill
                 className="object-cover object-top"
               />
