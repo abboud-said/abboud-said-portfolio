@@ -71,6 +71,17 @@ const projects = [
     image: "/assets/lonetracker-1.png",
     imageAlt: "Lönetracker — OB tiers from Detaljhandelsavtalet",
   },
+  {
+    title: "AI Prompt Lab",
+    tagline:
+      "Dashboard for trying one prompt at different Gemini temperatures — a single reducer owns the run states, and the history survives a refresh through localStorage.",
+    year: "2026",
+    tech: ["React 19", "Vite", "Tailwind CSS v4", "Gemini API"],
+    status: "View case study",
+    href: "/projects/prompt-lab",
+    image: "/assets/prompt-lab-1.png",
+    imageAlt: "AI Prompt Lab with a prompt typed in and the temperature slider set to 0.3",
+  },
 ];
 
 const repos = [
@@ -83,11 +94,6 @@ const repos = [
     name: "Portfolio-AbboudSaid",
     desc: "Earlier portfolio, built at university.",
     href: "https://github.com/abboud-said/Portfolio-AbboudSaid",
-  },
-  {
-    name: "prompt-lab",
-    desc: "React 19 + Vite dashboard using useReducer and the Gemini API to experiment with prompt engineering.",
-    href: "https://github.com/abboud-said/prompt-lab",
   },
   {
     name: "Split-bill-with-friends",
