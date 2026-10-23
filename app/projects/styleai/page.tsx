@@ -50,10 +50,18 @@ export default function StyleAI() {
         </div>
 
         <p className="max-w-[560px] text-[15px] leading-[1.7] text-[oklch(0.35_0.01_250)]">
-          Full case study write-up is in progress. In the meantime, reach out directly or check
-          the source.
+          Full case study write-up is in progress. In the meantime, reach out directly or read
+          the source on GitHub.
         </p>
         <div className="mt-6 flex flex-wrap gap-3.5">
+          <a
+            href="https://github.com/abboud-said/styleai-backend"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-[3px] border border-[oklch(0.85_0.006_250)] px-[22px] py-3 font-mono text-sm"
+          >
+            Source on GitHub ↗
+          </a>
           <a
             href="mailto:abboudsaid6@gmail.com?subject=StyleAI%20case%20study"
             className="rounded-[3px] border border-[oklch(0.85_0.006_250)] px-[22px] py-3 font-mono text-sm"
