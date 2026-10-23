@@ -85,6 +85,14 @@ export default function PromptLab() {
           >
             Source on GitHub ↗
           </a>
+          <a
+            href="https://prompt-lab-32bp.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-[3px] border border-[oklch(0.85_0.006_250)] px-[22px] py-3 font-mono text-sm"
+          >
+            Live demo ↗
+          </a>
           <Link
             href="/#projects"
             className="rounded-[3px] border border-[oklch(0.85_0.006_250)] px-[22px] py-3 font-mono text-sm"
